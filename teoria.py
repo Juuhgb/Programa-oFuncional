@@ -1,5 +1,5 @@
 from functools import reduce
-
+##Filtrar os numeros da lista
 def problema(numeros):
     #Dobrar cada número
     dobro = list(map(lambda x: x * 2, numeros))
