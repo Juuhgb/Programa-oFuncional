@@ -1,16 +1,16 @@
 from functools import reduce
 
 def problema(numeros):
-    # 1. Dobrar cada número
+    #Dobrar cada número
     dobro = list(map(lambda x: x * 2, numeros))
 
-    # 2. Filtrar números pares
+    # Filtrar números pares
     pares = list(filter(lambda x: x % 2 == 0, numeros))
 
-    # 3. Soma total
+    #Soma total
     soma_total = reduce(lambda acc, x: acc + x, numeros, 0)
 
-    # 4. Média
+    #Média
     media = soma_total / len(numeros) if numeros else 0
 
     return dobro, pares, soma_total, media
