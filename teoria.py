@@ -15,7 +15,6 @@ def problema(numeros):
 
     return dobro, pares, soma_total, media
 
-# Exemplo de uso
 if __name__ == "__main__":
     numeros = [1, 2, 3, 4, 5, 6]
 
